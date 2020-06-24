@@ -7,4 +7,5 @@ if [ -z "$directory" ];then
 fi
 # -n : print line number
 # -H : print the file name
+# aaaaaaa
 find "$directory" -type f | xargs grep -nH "$pattern"
